@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --bg1: #37353E;
+    --fg1: #44444E;
+    --fg2: #715A5A;
+    --fontcolor: #D3DAD9;
+}
+
+body {
+    background-color: var(--bg1);
+    font-family: "Inter", sans-serif;
+    color: var(--fontcolor);
+    width: 99vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 80%;
+    background-color: var(--fg1);
+    font-size: xx-large;
+    font-weight: 900;
+    letter-spacing: 0.125px;
+    text-align: center;
+}
+
+.titleCaption
+{
+    font-size: small;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+
+.content 
+{
+    width: 80%;
+    background-color: var(--fg1);
+    font-size: medium;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentLeft
+{
+    width: 30%;
+    background-color: var(--fg2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contentLeftTitle
+{
+    font-size: x-large;
+    margin: 4px;
+}
+
+.contentRight
+{
+    width: 60%;
+    background-color: var(--fg2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentPost
+{
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.5);;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentPostTitle
+{
+    font-size: large;
+}
