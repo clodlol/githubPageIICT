@@ -12,7 +12,7 @@ body {
     font-family: "Inter", sans-serif;
     color: var(--fontcolor);
     width: 99vw;
-    height: auto;
+    height: 70vh;
 
     display: flex;
     flex-direction: column;
@@ -27,6 +27,12 @@ body {
     font-weight: 900;
     letter-spacing: 0.125px;
     text-align: center;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
 }
 
 .titleCaption
@@ -39,6 +45,7 @@ body {
 
 .content 
 {
+    height: 40%;
     width: 80%;
     background-color: var(--fg1);
     font-size: medium;
@@ -50,23 +57,31 @@ body {
 
 .contentLeft
 {
+    height: 90%;
     width: 30%;
     background-color: var(--fg2);
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .contentLeftTitle
 {
+    width: 80%;
     font-size: x-large;
-    margin: 4px;
+    letter-spacing: 0.125px;
+}
+
+.contentLeftBody
+{
+    width: 80%;
 }
 
 .contentRight
 {
+    height: 90%;
     width: 60%;
     background-color: var(--fg2);
 
@@ -78,10 +93,13 @@ body {
 
 .contentPost
 {
+    height: 40%;
     width: 90%;
-    background-color: rgba(128, 128, 128, 0.5);;
+    background-color: rgba(128, 128, 128, 0.2);;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .contentPostTitle
